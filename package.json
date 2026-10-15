@@ -1,0 +1,17 @@
+{
+  "name": "qa-automation-showcase",
+  "version": "1.0.0",
+  "description": "Professional QA Automation Framework using Playwright, TypeScript, POM and API Testing",
+  "author": "Jeiser Gutiérrez <jeiser270997@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.0",
+    "typescript": "^5.3.0"
+  }
+}
